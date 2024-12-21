@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Satoshi';
+  src: url('/fonts/satoshi-regular.woff2') format('woff2'),
+       url('/fonts/satoshi-regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Satoshi';
+  src: url('/fonts/satoshi-bold.woff2') format('woff2'),
+       url('/fonts/satoshi-bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Satoshi', sans-serif;
+}
+
+.new{
+  color: #1F335A;
+
+font-family: Satoshi;
+font-size: 72px;
+font-style: italic;
+font-weight: 400;
+line-height: normal;
+
+}
+
+.new span{
+  color: #32B4FF;
+font-family: Satoshi;
+font-size: 72px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+}
