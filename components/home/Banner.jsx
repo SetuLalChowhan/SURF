@@ -38,13 +38,13 @@ const Banner = () => {
                 {/* second row */}
 
                 <div className='max-w-[950px] mx-auto mt-20  relative'>
-                    <div className=' absolute lg:top-[5%] lg:left-[20%] md:left-[40%] sm:left-[42%] left-[40%] -top-[40%] transform lg:rotate-0 rotate-45'>
+                    <div className=' absolute lg:top-[5%] lg:left-[20%] md:left-[39%] sm:left-[42%] left-[40%] -top-[40%] transform lg:rotate-0 rotate-45'>
                         <Barrow1 />
                     </div>
-                    <div className=' absolute lg:top-[45%] top-[20%] md:right-[35%] sm:right-[30%]  lg:right-[25%] right-[26%] transform lg:rotate-0 -rotate-45'>
+                    <div className=' absolute lg:top-[45%] top-[20%] md:right-[35%] sm:right-[32%]  lg:right-[25%] right-[26%] transform lg:rotate-0 -rotate-45'>
                         <Barrow2 />
                     </div>
-                    <div className='  flex lg:gap-[220px] lg:justify-start justify-center gap-10 md:gap-16 px-8 '>
+                    <div className='  flex lg:gap-[220px] lg:justify-start justify-center gap-10 md:gap-20 px-8 '>
                         <div className=' lg:mt-9 -mt-16 '>
                         <Image src={arrow} alt='arrow' className=' w-[75px]  lg:w-[160px]' />
                         </div>
