@@ -14,13 +14,13 @@ export default function Home() {
    <>
    
    <Banner/>
-   {/* <Success/>
+   <Success/>
    <Feature/>
    <ExploreToken/>
    <Meme/>
    <ToolBox/>
    <Future/>
-   <SurfBot/> */}
+   <SurfBot/>
    
    </>
     
