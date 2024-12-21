@@ -30,7 +30,7 @@ const Banner = () => {
                     </div>
 
                     <p className='xl:text-[72px] px-3 lg:text-[50px] text-[40px] text-peraColor font-[400] italic'>Simple interface,<span className='text-[#32B4FF] font-[700]'> Powerful tools</span></p>
-                    <p className='text-peraColor px-4 md:text-[14px] lg:text-[20px] text-center font-[500]'>Every blockchain deserves a bot that simplifies life for traders. SURF is your all-in-one solution for trading, sniping, staking, and bridging, accessible directly through Telegram.</p>
+                    <p className='text-peraColor px-4 text-[14px] lg:text-[20px] text-center font-[500]'>Every blockchain deserves a bot that simplifies life for traders. SURF is your all-in-one solution for trading, sniping, staking, and bridging, accessible directly through Telegram.</p>
 
 
                 </div>
@@ -38,13 +38,13 @@ const Banner = () => {
                 {/* second row */}
 
                 <div className='max-w-[950px] mx-auto mt-20  relative'>
-                    <div className=' absolute lg:top-[5%] lg:left-[20%] md:left-[40%] sm:left-[39%] left-[35%] -top-[40%] transform lg:rotate-0 rotate-45'>
+                    <div className=' absolute lg:top-[5%] lg:left-[20%] md:left-[40%] sm:left-[42%] left-[40%] -top-[40%] transform lg:rotate-0 rotate-45'>
                         <Barrow1 />
                     </div>
-                    <div className=' absolute lg:top-[45%] top-[25%] md:right-[35%] sm:right-[30%]  lg:right-[25%] right-[25%] transform lg:rotate-0 -rotate-45'>
+                    <div className=' absolute lg:top-[45%] top-[20%] md:right-[35%] sm:right-[30%]  lg:right-[25%] right-[26%] transform lg:rotate-0 -rotate-45'>
                         <Barrow2 />
                     </div>
-                    <div className='  flex lg:gap-[220px] lg:justify-start justify-center gap-16 px-6 '>
+                    <div className='  flex lg:gap-[220px] lg:justify-start justify-center gap-10 md:gap-16 px-8 '>
                         <div className=' lg:mt-9 -mt-16 '>
                         <Image src={arrow} alt='arrow' className=' w-[75px]  lg:w-[160px]' />
                         </div>
