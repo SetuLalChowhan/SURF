@@ -12,13 +12,13 @@ const Footer = () => {
 
     <div className=' flex gap-2'>
         <div className=' cursor-pointer'>
-            <Image src={telegram} alt='telegram' />
+            <Image src={telegram} alt='telegram' className=' lg:w-[50px] w-[32px]' />
         </div>
         <div className=' cursor-pointer'>
-            <Image src={twitter} alt='twitter' />
+            <Image src={twitter} alt='twitter' className=' lg:w-[50px] w-[32px]' />
         </div>
         <div className=' cursor-pointer'>
-            <Image src={new1} alt='new1' />
+            <Image src={new1} alt='new1' className=' lg:w-[50px] w-[32px]'/>
         </div>
        
 

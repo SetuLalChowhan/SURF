@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <header className=' fixed top-0 bg-[#F3FCFF] py-[20px] lg:py-[41px] px-[20px] lg:px-[40px] w-full flex justify-between items-center  z-40'>
         <Logo/>
-        <CommonButton name={`Open SURF Telegram bot`} svg={<ButtonArrow/>}/>
+        <CommonButton name={`Open SURF Telegram bot`} id={1} svg={<ButtonArrow/>}/>
 
     </header>
   )

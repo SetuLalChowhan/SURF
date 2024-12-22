@@ -30,7 +30,7 @@ const Banner = () => {
                     </div>
 
                     <p className='xl:text-[72px] px-3 lg:text-[50px] text-[40px] text-peraColor font-[400] italic'>Simple interface,<span className='text-[#32B4FF] font-[700]'> Powerful tools</span></p>
-                    <p className='text-peraColor px-4 text-[14px] lg:text-[20px] text-center font-[500]'>Every blockchain deserves a bot that simplifies life for traders. SURF is your all-in-one solution for trading, sniping, staking, and bridging, accessible directly through Telegram.</p>
+                    <p className='text-peraColor px-4 text-[15px] lg:text-[20px] text-center font-[500]'>Every blockchain deserves a bot that simplifies life for traders. SURF is your all-in-one solution for trading, sniping, staking, and bridging, accessible directly through Telegram.</p>
 
 
                 </div>
