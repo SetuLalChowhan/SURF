@@ -49,7 +49,7 @@ const Meme = () => {
                 <p className="text-[#32B4FF] xl:text-[64px] text-[48px] font-[900]">$SURF</p>
                 
              
-              <p className="xl:text-[40px] md:text-[28px] text-[20px] text-peraColor font-[500]">
+              <p className="xl:text-[40px] md:text-[28px] text-[20px] text-peraColor font-[500] ">
                 THE UTILITY MEME YOU DESERVE.
               </p>
             </div>

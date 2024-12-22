@@ -99,7 +99,7 @@ const Feature = () => {
           <div className=" lg:block hidden absolute -top-[30%]">
             <Image src={penguine} alt="penguine" />
           </div>
-          <div className="absolute -bottom-[5%] -right-[15%]">
+          <div className="absolute -bottom-[5%] -right-[10%]">
             <SecondLine />
           </div>
 

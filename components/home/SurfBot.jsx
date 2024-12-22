@@ -13,7 +13,6 @@ import BlueStar from "../svg/bot/BlueStar";
 import SmallBlueButton from "../svg/bot/SmallBlueButton";
 import Star1 from "../svg/Star1";
 import Thunder from "../svg/feature/Thunder";
-import Link from "next/link";
 
 const SurfBot = () => {
   return (
@@ -23,7 +22,7 @@ const SurfBot = () => {
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
-      className=" w-full h-[372px]   rounded-lg pt-24 relative -z-20 xlg:mt-24 mt-44  "
+      className=" w-full h-[372px]   rounded-lg pt-24 relative  xlg:mt-24 mt-44  -z-10 "
     >
       <div className=" absolute -top-[30%] right-[1%] xlg:block hidden">
         <Image src={vector} alt="image" />
@@ -75,14 +74,14 @@ const SurfBot = () => {
             The next wave of trading starts here.
           </p>
 
-          <Link href="/dashboard" className="bg-[#FFF] flex gap-[10px] py-3 px-6 shadow-custom rounded-[8px] transition-all duration-300 hover:opacity-85 cursor-pointer z-40">
+          <button className="bg-[#FFF] flex gap-[10px] py-3 px-6 shadow-custom rounded-[8px] transition-all duration-300 z-10 hover:opacity-85 cursor-pointer ">
             <span className="text-base text-[#49BCFF] font-bold">
               Use SURF Bot now
             </span>
             <span>
               <ButtonArrow2 />
             </span>
-          </Link>
+          </button>
         </div>
       </div>
     </div>
