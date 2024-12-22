@@ -13,8 +13,8 @@ export default function Home() {
   return (
    <>
    
-   {/* <Banner/> */}
-   {/* <Success/> */}
+   <Banner/>
+   <Success/>
    <Feature/>
    <ExploreToken/>
    <Meme/>
