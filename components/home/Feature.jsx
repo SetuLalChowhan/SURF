@@ -19,7 +19,7 @@ const featureData = [];
 
 const Feature = () => {
   return (
-    <div className=" xl:pt-28 lg:pt-24  pt-16 relative xl:mt-36 lg:mt-32 2xl:mt-72  ">
+    <div className=" xl:pt-28 lg:pt-24  pt-16 relative xl:mt-36 lg:mt-24  xlg:mt-32 2xl:mt-60 py-2  ">
       <div className=" absolute lg:top-[30%] top-60 left-5 sm:top-56 sm:left-10 md:left-28  lg:left-[5%]">
         <SmallStar />
       </div>
