@@ -9,6 +9,7 @@ import Image from 'next/image'
 import Barrow1 from '../svg/banner-svg/banner-arrow/Barrow1'
 import Barrow2 from '../svg/banner-svg/banner-arrow/Barrow2'
 import wave from '@/public/images/Wave.png'
+import blueLine from '@/public/images/blueLine.png'
 
 const Banner = () => {
     return (
@@ -29,7 +30,7 @@ const Banner = () => {
 
                     </div>
 
-                    <p className='xl:text-[72px] px-3 lg:text-[50px] text-[40px] text-peraColor font-[400] italic'>Simple interface,<span className='text-[#32B4FF] font-[700]'> Powerful tools</span></p>
+                    <p className=' z-10 xl:text-[72px] px-3 lg:text-[50px] text-[40px] text-peraColor font-[400] italic relative'><span className='absolute top-3 -z-10 inset-0 lg:left-0 md:left-0 sm:left-8 left-6 sm:right-4   md:right-0 right-4 px-4 '><Image src={blueLine} alt='blueline ' className='xl:w-[550px] lg:w-[340] md:w-[300px] w-[300px] '   /></span> Simple interface,<span className='text-[#32B4FF] font-[700]'> Powerful tools</span></p>
                     <p className='text-peraColor px-4 text-[15px] lg:text-[20px] text-center font-[500]'>Every blockchain deserves a bot that simplifies life for traders. SURF is your all-in-one solution for trading, sniping, staking, and bridging, accessible directly through Telegram.</p>
 
 

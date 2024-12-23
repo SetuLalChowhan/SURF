@@ -51,21 +51,21 @@ const ToolBox = () => {
 
                 <h1 className=' text-[#32B4FF] xl:text-[52px] md:text-[35px] text-[28px] font-[900]'>MORE THAN A TOOL</h1>
 
-                <div className="relative -mt-4">
+                <div className="relative -mt-4 px-[2px]">
                     {/* Background Image */}
                     <div className="absolute inset-0">
                         <Image src={LineShadow2} alt="image" className="h-auto -z-10 xl:w-32 md:w-24 w-16" />
                     </div>
 
                     {/* Text Content */}
-                    <div className="relative z-10">
+                    <div className="relative z-10 ">
                         <p className="text-peraColor xl:text-[32px] md:text-[24px] text-base italic font-[400]">
                             A <span className="font-[700]">HOME</span> FOR THE SWELLCHAIN COMMUNITY
                         </p>
                     </div>
                 </div>
 
-                <p className=' text-peraColor text-[12px] md:text-[18px] md:pb-0 pb-28 font-medium px-8'>Our mission is to build a thriving community hub where Swellchain fans can come together, connect, and collaborate. This is your central space for discussions, decisions, and driving the future of the $SURF ecosystem forward!</p>
+                <p className=' text-peraColor text-[14px] md:text-[18px] md:pb-0 pb-20 font-medium px-8'>Our mission is to build a thriving community hub where Swellchain fans can come together, connect, and collaborate. This is your central space for discussions, decisions, and driving the future of the $SURF ecosystem forward!</p>
 
 
             </div>

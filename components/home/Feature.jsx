@@ -19,7 +19,7 @@ const featureData = [];
 
 const Feature = () => {
   return (
-    <div className=" xl:pt-28 pt-16 relative lg:mt-28 xl:mt-72  ">
+    <div className=" xl:pt-28 lg:pt-24  pt-16 relative xl:mt-36 lg:mt-32 2xl:mt-72  ">
       <div className=" absolute lg:top-[30%] top-60 left-5 sm:top-56 sm:left-10 md:left-28  lg:left-[5%]">
         <SmallStar />
       </div>
@@ -33,20 +33,20 @@ const Feature = () => {
 
       <div className=" lg:px-0  max-w-[746px] mx-auto flex-col flex gap-5 justify-center items-center text-center relative ">
       
-        <h1 className="  px-16 lg:text-[48px] md:text-[32px] text-[22px] text-peraColor font-normal">
+        <h1 className="   xl:text-[48px] md:text-[32px] text-[22px] text-peraColor font-normal">
           FEATURES THAT PUT YOU{" "}
           <span className=" relative text-[#32B4FF] font-[900]">
-          <span className=" absolute -top-5 -right-6 ">
+          <span className=" absolute -top-5 sm:-right-6 -right-3 md:block hidden ">
           <ThreeYellow />
         </span>
             AHEAD</span>{" "}
         </h1>
-        <p className="text-[18px] font-medium text-peraColor px-4">
+        <p className="lg:text-[18px] text-base font-medium text-peraColor px-4">
           More than a bot—it’s your passport to the Swell Layer 2 ecosystem.
         </p>
       </div>
 
-      <div className="  px-12 lg:mt-16 mt-28  max-w-[1450px] mx-auto lg:grid grid-cols-3 xl:gap-16 lg:gap-5 gap-11 place-items-center  lg:place-items-start   ">
+      <div className=" px-4 lg:px-12   lg:mt-16 mt-28  max-w-[1450px] mx-auto lg:grid grid-cols-3 xl:gap-16 lg:gap-5 gap-11 place-items-center  lg:place-items-start   ">
         {/* 1st card */}
 
         <div className="  mt-16 xl:px-6 px-3 xl:py-20 py-10 flex flex-col justify-center items-center text-center relative gap-4 border-[2px] border-b-[#B2E5F9] bg-[#E8F9FF] rounded-[16px] shadow-custom2 ">
@@ -56,7 +56,7 @@ const Feature = () => {
           <div className=" absolute -top-[30%]">
             <Image src={penguine} alt="penguine" />
           </div>
-          <div className="absolute -bottom-[8%] -left-[10%]">
+          <div className="absolute -bottom-[8%] md:-left-[10%] -left-2">
             <FIrstLine />
           </div>
 
@@ -99,7 +99,7 @@ const Feature = () => {
           <div className=" lg:block hidden absolute -top-[30%]">
             <Image src={penguine} alt="penguine" />
           </div>
-          <div className="absolute -bottom-[5%] -right-[10%]">
+          <div className="absolute -bottom-[5%] lg:-right-[10%] -right-4">
             <SecondLine />
           </div>
 

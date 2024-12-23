@@ -12,10 +12,11 @@ import Sky from '../svg/success/Sky'
 import Star1 from '../svg/Star1'
 import SmallYellowPlus from '../svg/explore/SmallYellowPlus'
 import YellowPlus from '../svg/feature/YellowPlus'
+import Link from 'next/link'
 
 const ExploreToken = () => {
     return (
-        <div className='md:pt-8 pt-24 px-4 mt-20 flex flex-col justify-center items-center text-center gap-8 border-[1px] border-[#9DDCF5] bg-[#F3FCFF] rounded-[24px] max-w-[1600px] mx-auto  relative'>
+        <div className=' mx-4  2xl:mx-auto md:pt-8 pt-24 px-4 mt-20 flex flex-col justify-center items-center text-center gap-8 border-[1px] border-[#9DDCF5] bg-[#F3FCFF] rounded-[24px] max-w-[1600px]   relative'>
 
             <div className=' absolute md:top-[10%] -top-2 left-[10%] md:pt-0 pt-10'>
                 <Sky/>
@@ -59,20 +60,20 @@ const ExploreToken = () => {
                 <SkyDrive />
                 </div>
                 <h1 className='xl:text-[56px] lg:text-[40px] text-[32px] text-peraColor  z-20 font-bold'>SURF</h1>
-                <h1 className='text-[56px] text-peraColor  z-20 '> ?</h1>
+                <h1 className='xl:text-[56px] lg:text-[40px] text-[32px] text-peraColor  z-20 '> ?</h1>
             </div>
       
            <p className=' text-[#32B4FF] lg:text-[24px] text-base font-[600] md:-mt-2 -mt-10'>Explore tokens. Share alpha. Build the future of Swell.</p>
-           <p className=' text-peraColor md:text-[18px] text-[12px] font-[600] -mt-2 max-w-[1100px] '>SURF isn’t just another trading tool. It’s a community-driven platform tailored for Swell’s fast-growing blockchain. Connect with degens like yourself, trade smarter, and discover the latest projects—all from the comfort of your Telegram.</p>
+           <p className=' text-peraColor md:text-[18px] text-[14px] font-[500] -mt-2 max-w-[1100px] '>SURF isn’t just another trading tool. It’s a community-driven platform tailored for Swell’s fast-growing blockchain. Connect with degens like yourself, trade smarter, and discover the latest projects—all from the comfort of your Telegram.</p>
 
-           <button className=' bg-[#32B4FF] items-center flex gap-[10px] py-3 px-6 shadow-custom rounded-[8px] transition-all duration-300 hover:opacity-85 '>
+           <Link href={`#`} className=' bg-[#32B4FF] items-center flex gap-[10px] py-3 px-6 shadow-custom rounded-[8px] transition-all duration-300 hover:opacity-85 '>
             <span className='text-base text-[#FFF] font-bold'>Join our</span>
             <span><Telegram/></span>
             <span className='text-base text-[#FFF] font-bold'>Telegram</span>
             <span><ButtonArrow/></span>
-        </button>
+        </Link>
 
-        <div className=' lg:w-[780px]  w-44   flex lg:justify-between   gap-7'>
+        <div className=' lg:w-[740px]  w-44   flex lg:justify-between   gap-7'>
             <Image src={Circle1} alt='penguin1' className=' w-[84px]'/>
             <Image src={Circle2} alt='penguin2' className=' w-[84px]'/>
 

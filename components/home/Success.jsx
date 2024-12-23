@@ -20,16 +20,7 @@ const Success = () => {
         <Sky />
       </div>
 
-      <div className=" absolute top-[1%] left-[55%]  2xl:top-[5%] md:top-[6%] lg:top-[8%] lg:left-[22%] xl:left-[18%] 2xl:left-[20%]">
-        <Three />
-      </div>
-      <div className=" absolute  2xl:top-[10%] xl:top-[14%] md:top-[10%] top-[4%] left-[55%] lg:top-[14%] lg:left-[22%]  xl:left-[18%]  2xl:left-[20%] ">
-        <Image
-          src={rectangle1}
-          alt="rectangle"
-          className=" w-[48px] md:w-[60px]  lg:w-[79px]"
-        />
-      </div>
+    
       <div className=" absolute lg:top-[20%] top-[4%]  md:top-[10%] right-[10%] xl:left-[33%] lg:left-[60%] ">
         <SmallYellowStar />
       </div>
@@ -55,25 +46,39 @@ const Success = () => {
             <div className="flex flex-col 2xl:gap-5 gap-3">
               <h1 className=" 2xl:text-[52px] text-[32px] md:text-[40px] font-normal ">
                 SURF THE
-                <span className="text-[#2042CA] font-[900]"> SWELL</span> OF
-                SUCCESS{" "}
+                <span className="text-[#2042CA] font-[900] relative">
+                  {" "}
+                  SWELL
+                  <span>
+                    <Image
+                      src={rectangle1}
+                      alt="rectangle"
+                      className=" w-[48px] md:w-[60px]  lg:w-[79px] absolute md:-top-16 -top-10 lg:-top-20 2xl:-top-16 left-12"
+                    />
+                  </span>
+                  <span className=" absolute 2xl:-top-20 lg:-top-24 md:-top-20 -top-14 md:left-10 left-12  lg:left-12">
+                    <Three />
+                  </span>
+                </span>{" "}
+                OF SUCCESS{" "}
               </h1>
               <p className=" text-peraColor text-[14px] md:text-[18px] xl:pr-0 lg:pr-20 font-[500]">
                 Effortlessly interact with tokens launched on the Swellchain.
                 Anytime. Anywhere.
               </p>
             </div>
-           <div className=" cursor-pointer">
-           <CommonButton
-              name={`Open SURF Telegram bot`}
-              svg={<ButtonArrow />}
-            />
-           </div>
+          
+              <CommonButton
+                name={`Open SURF Telegram bot`}
+                svg={<ButtonArrow />} 
+                address={`#`}
+              />
+            
           </div>
         </div>
 
         {/* //right side */}
-        <div className=" lg:absolute xl:top-[15%] lg:top-[50%] md:block hidden   w-full">
+        <div className=" lg:absolute xl:top-[15%] lg:top-[50%] -z-40 md:block hidden   w-full">
           <Image
             quality={100}
             priority
