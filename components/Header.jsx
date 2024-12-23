@@ -6,7 +6,7 @@ import Link from 'next/link'
 
 const Header = () => {
   return (
-    <header className=' fixed top-0 bg-[#F3FCFF] py-[20px] lg:py-[41px] px-[20px] lg:px-[40px] w-full flex justify-between items-center  z-40'>
+    <header className=' fixed z-50 top-0 bg-[#F3FCFF] py-[20px] lg:py-[41px] px-[20px] lg:px-[40px] w-full flex justify-between items-center  z-40'>
        <Link href={'/'}> <Logo/></Link>
         <CommonButton name={`Open SURF Telegram bot`} id={1} svg={<ButtonArrow/>} address={`#`}/>
 
